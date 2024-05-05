@@ -1,7 +1,7 @@
 {
-  "name": "NodeJS_tutorial",
+  "name": "nodjstutorial",
   "version": "1.0.0",
-  "description": "",
+  "description": "- Press 'ctrl + `' to open terminal\r - To run server type: \"node server.js\" in terminal // server2,3,4....js\r - To close server press \"ctrl + c\" in terminal\r - You have to close current open server before run another server\r - On server2.js your can type anything after \"/\" e.g. localhost:8000/about so we got \"/about\" in html body element\r - On server3.js we type: \"localhost:8000/?date=05&month=05&year=2024\" so the result is: \"05/05/2024\"\r - On server4.js we display index.html file using 'fs' module\r - On appendFile.js this will append data to append.txt or create new append.txt if it's not exist\r - On openFile.js function open() come with parameter flags 'w' it's mean you open file open.txt for write or create new open.txt if it's not exist\r - On writeFile.js funtion writeFile() will make overwrite old data with new data in write.txt or create new write.txt if it's not exist\r - On unlinkFile.js function unlink() will delete append.txt file\r - On renameFile.js function rename() will rename open.txt to append.txt\r # How to install module by npm (Node Package Manager)\r - Very first thing you should do before install any npm you must install package.json by type 'npm init -y'\r * '-y' mean it won't ask you any question while install npm",
   "main": "appendFile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bounpakhong/NodeJS_tutorial.git"
+    "url": "git+https://github.com/Bounpakhong/nodjstutorial.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bounpakhong/NodeJS_tutorial/issues"
+    "url": "https://github.com/Bounpakhong/nodjstutorial/issues"
   },
-  "homepage": "https://github.com/Bounpakhong/NodeJS_tutorial#readme"
+  "homepage": "https://github.com/Bounpakhong/nodjstutorial#readme"
 }
