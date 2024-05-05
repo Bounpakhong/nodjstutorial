@@ -6,7 +6,7 @@ http.createServer(function (req, res) {
     let q = url.parse(req.url, true);
     let filename = '.' + q.pathname; // ./somepath
     if (filename == './') filename = 'index.html';
-    // index.html == ./index.html
+    // index.html is same as ./index.html
     fs.readFile(filename, function (error, data) {
         if (error) {
             res.writeHead(404, { 'Content-Type': 'text/html' });
